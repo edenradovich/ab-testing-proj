@@ -46,9 +46,9 @@ Given that the size of each group is about 50-50 control-treatment, the groups a
 
 Under the null and alternative hypotheses below, we assume that the old page is better unless the new page proves to be definitely better at a Type I error rate of 5%. **$p_{old}$** and **$p_{new}$** are the converted rates for the old and new pages.
 
-**$H_{0}$** : **$p_{new}$** - **$p_{old}$** ≤ 0
+**H<sub>0</sub>** : **P<sub>new</sub>** - **P<sub>old</sub>** ≤ 0
 
-**$H_{1}$** : **$p_{new}$** - **$p_{old}$** > 0
+**H<sub>1</sub>** : **P<sub>new</sub>** - **P<sub>old</sub>** > 0
 
 Assuming under the null hypothesis, $p_{new}$ and $p_{old}$ both have "true" success rates equal to the **converted** success rate regardless of page - that is $p_{new}$ and $p_{old}$ are equal. We also assume they are equal to the **converted** rate in **ab_data.csv** regardless of the page. <br><br>
 
