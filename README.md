@@ -21,7 +21,7 @@ This project requires Python and the following Python libraries installed:
 
 You will also need to have software installed to run and execute a [Jupyter Notebook](https://jupyter.org/).
 
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](https://www.anaconda.com/download/#macos) distribution of Python, which already has the above packages and more included.
+If you do not have Python installed yet, install the [Anaconda](https://www.anaconda.com/download/#macos) distribution of Python, which already has the above packages and more included.
 
 ### Run
 In a terminal or command window, run the following command:
