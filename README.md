@@ -50,7 +50,7 @@ Under the null and alternative hypotheses below, we assume that the old page is 
 
 **H<sub>1</sub>** : **P<sub>new</sub>** - **P<sub>old</sub>** > 0
 
-Assuming under the null hypothesis, $p_{new}$ and $p_{old}$ both have "true" success rates equal to the **converted** success rate regardless of page - that is $p_{new}$ and $p_{old}$ are equal. We also assume they are equal to the **converted** rate in **ab_data.csv** regardless of the page. <br><br>
+Assuming under the null hypothesis, P<sub>new</sub> and P<sub>old</sub> both have "true" success rates equal to the **converted** success rate regardless of page - that is **P<sub>new</sub>** and **P<sub>old</sub>** are equal. We also assume they are equal to the **converted** rate in **ab_data.csv** regardless of the page. <br><br>
 
 The p value tells us the proportion of values in the null distribution that are greater than the observed difference. The p value tells us whether we can reject or fail to reject the null hypothesis. The analysis resulted in a p value of 0.85 (very high) which tells us that it is likely our value came from the null hypothesis, meaning we cannot reject it. This means that it likely that there is no difference between the new and old landing pages.
 
