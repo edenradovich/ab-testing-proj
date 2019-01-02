@@ -44,7 +44,7 @@ Given that the size of each group is about 50-50 control-treatment, the groups a
 ### Part II - A/B Test 
 
 
-Under the null and alternative hypotheses below, we assume that the old page is better unless the new page proves to be definitely better at a Type I error rate of 5%. **p<sub>old</sub>*** and **p<sub>new</sub>** are the converted rates for the old and new pages.
+Under the null and alternative hypotheses below, we assume that the old page is better unless the new page proves to be definitely better at a Type I error rate of 5%. **p<sub>old</sub>** and **p<sub>new</sub>** are the converted rates for the old and new pages.
 
 **H<sub>0</sub>** : **p<sub>new</sub>** - **p<sub>old</sub>** ≤ 0
 
