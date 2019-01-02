@@ -44,13 +44,13 @@ Given that the size of each group is about 50-50 control-treatment, the groups a
 ### Part II - A/B Test 
 
 
-Under the null and alternative hypotheses below, we assume that the old page is better unless the new page proves to be definitely better at a Type I error rate of 5%. **$p_{old}$** and **$p_{new}$** are the converted rates for the old and new pages.
+Under the null and alternative hypotheses below, we assume that the old page is better unless the new page proves to be definitely better at a Type I error rate of 5%. **p<sub>old</sub>*** and **p<sub>new</sub>** are the converted rates for the old and new pages.
 
-**H<sub>0</sub>** : **P<sub>new</sub>** - **P<sub>old</sub>** ≤ 0
+**H<sub>0</sub>** : **p<sub>new</sub>** - **p<sub>old</sub>** ≤ 0
 
-**H<sub>1</sub>** : **P<sub>new</sub>** - **P<sub>old</sub>** > 0
+**H<sub>1</sub>** : **p<sub>new</sub>** - **p<sub>old</sub>** > 0
 
-Assuming under the null hypothesis, P<sub>new</sub> and P<sub>old</sub> both have "true" success rates equal to the **converted** success rate regardless of page - that is **P<sub>new</sub>** and **P<sub>old</sub>** are equal. We also assume they are equal to the **converted** rate in **ab_data.csv** regardless of the page. <br><br>
+Assuming under the null hypothesis, P<sub>new</sub> and P<sub>old</sub> both have "true" success rates equal to the **converted** success rate regardless of page - that is **p<sub>new</sub>** and **p<sub>old</sub>** are equal. We also assume they are equal to the **converted** rate in **ab_data.csv** regardless of the page. <br><br>
 
 The p value tells us the proportion of values in the null distribution that are greater than the observed difference. The p value tells us whether we can reject or fail to reject the null hypothesis. The analysis resulted in a p value of 0.85 (very high) which tells us that it is likely our value came from the null hypothesis, meaning we cannot reject it. This means that it likely that there is no difference between the new and old landing pages.
 
